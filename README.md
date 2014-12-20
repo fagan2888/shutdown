@@ -30,7 +30,7 @@ shutdown /a
 ## Requirements
 
 - Windows 7 OR Windows 8
-- Cygwin or POSIX-style terminal or POSIX-style Command Prompt
+- Cygwin or POSIX-style terminal or POSIX-style Command Prompt or Powershell
 
 
 
