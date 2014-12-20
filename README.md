@@ -9,17 +9,23 @@ a certain amount of minutes and shuts down your Computer for you.
 ## Directions
 
 - start shutdown countdown
-
+```
 sd.exe numberOfMinutes
+```
+
 OR
+
+```
 sd numberOfMinutes
+```
 
 Example: shutdown.exe 60
 -> means shutdown in 60 minutes.
 
 - Cancel shutdown
-
+```
 shutdown /a
+```
 
 ## Requirements
 
