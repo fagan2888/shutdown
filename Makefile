@@ -1,7 +1,7 @@
 all: shutdown
 
 shutdown:
-	gcc -o shutdown shutdown.c
+	gcc -o sd shutdown.c
 
 clean:
-	rm -f shutdown shutdown.exe
+	rm -f sd sd.exe

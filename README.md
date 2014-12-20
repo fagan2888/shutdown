@@ -9,7 +9,9 @@ a certain amount of minutes and shuts down your Computer for you.
 ## Directions
 
 - start shutdown countdown
-shutdown.exe numberOfMinutes
+sd.exe numberOfMinutes
+OR
+sd numberOfMinutes
 
 Example: shutdown.exe 60
 -> means shutdown in 60 minutes.
