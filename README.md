@@ -19,7 +19,7 @@ OR
 sd numberOfMinutes
 ```
 
-Example: shutdown.exe 60
+Example: sd.exe 60
 -> means shutdown in 60 minutes.
 
 - Cancel shutdown
