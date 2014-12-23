@@ -9,8 +9,17 @@ int main(int argc, char * argv[])
 		printf("Example: shutdown.exe 60\n");
 		printf("-> means shutdown in 60 minutes.\n");
 		return 0;
+	}
+	if(!strcmp(argv[1], "cancel")){
+		printf("Canceled scheduled shutdown.\n");
+		system("C:/WINDOWS/System32/shutdown /a");
+		return 0;
+	}
+	int minutes = atoi(argv[1]);
+	if(minutes == 0){
+		printf("Input error. Need a number of minutes.\n");
+		return 0;
 	}else{
-		int minutes = atoi(argv[1]);
 		int numSeconds = minutes * 60;
 		char buffer[5];
 		snprintf(buffer, 5, "%d", numSeconds);

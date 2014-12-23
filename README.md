@@ -24,13 +24,20 @@ Example: sd.exe 60
 
 - Cancel shutdown
 ```
+sd cancel
+sd.exe cancel
+```
+
+OR
+
+```
 shutdown /a
 ```
 
 ## Requirements
 
 - Windows 7 OR Windows 8
-- Cygwin or POSIX-style terminal or POSIX-style Command Prompt or Powershell
+- Cygwin
 
 
 
