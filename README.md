@@ -37,7 +37,7 @@ shutdown /a
 ## Requirements
 
 - Windows 7 OR Windows 8
-- Cygwin
+- Cygwin or Cygwin-embedded terminal
 
 
 
