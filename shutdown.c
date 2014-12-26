@@ -21,8 +21,8 @@ int main(int argc, char * argv[])
 		return 0;
 	}else{
 		int numSeconds = minutes * 60;
-		char buffer[5];
-		snprintf(buffer, 5, "%d", numSeconds);
+		char buffer[10];
+		snprintf(buffer, 10, "%d", numSeconds);
 		char command[35];
 		strcpy(command, "C:/WINDOWS/System32/shutdown /s /t ");
 		//printf("%d", seconds);
